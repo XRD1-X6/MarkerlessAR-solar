@@ -1,0 +1,20 @@
+{
+"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+
+"traceEvents":[
+{ "pid": "Unity", "ph":"M", "name": "process_name", "args": {"name": "Unity"} },
+{ "pid": "Unity", "ph":"M", "name": "process_sort_index", "args": {"sort_index": -100} },
+{ "pid": "Unity", "tid": 1, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "Unity", "tid": 1,"ts": 320086719561.8,"dur": 14634060.6, "ph":"X", "name": "Build player"},
+{ "pid": "Unity", "tid": 1,"ts": 320086780452.7,"dur": 1208052.6, "ph":"X", "name": "Preprocess Player"},
+{ "pid": "Unity", "tid": 1,"ts": 320091968731.4,"dur": 9282268.2, "ph":"X", "name": "Prepare For Build"},
+{}
+
+],
+"meta_datetime": "09/28/2022 21:12:03",
+"meta_command_line": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.8f1\\Editor\\Unity.exe\" -createproject C:\\Users\\Bruger\\XRD1-MaekerlessAR -cloneFromTemplate C:\\Users\\Bruger\\AppData\\Roaming\\UnityHub\\Templates\\com.unity.template.ar-3.0.2.tgz -cloudOrganization  -cloudEnvironment production -useHub -hubIPC -hubSessionId e5f42c50-3d86-11ed-bb69-f79739d391c4 -accessToken aJGb8vqgSVpaWb_zbI8DGb4Xv7wh0GeIzK2LeV6lEQA005f",
+"meta_command_line_args": "C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.8f1\\Editor\\Unity.exe -createproject C:\\Users\\Bruger\\XRD1-MaekerlessAR -cloneFromTemplate C:\\Users\\Bruger\\AppData\\Roaming\\UnityHub\\Templates\\com.unity.template.ar-3.0.2.tgz -cloudOrganization  -cloudEnvironment production -useHub -hubIPC -hubSessionId e5f42c50-3d86-11ed-bb69-f79739d391c4 -accessToken aJGb8vqgSVpaWb_zbI8DGb4Xv7wh0GeIzK2LeV6lEQA005f",
+"meta_user_name": "Bruger",
+"meta_os_version": "Microsoft Windows NT 10.0.22000.0",
+"meta_cpu_count": "12"
+}
